@@ -1,0 +1,6 @@
+Obj,ParameterName,ParameterValue,Explanation
+TimeSeriesTrans,n_points,10,ResponseCurve中的描点个数的一半
+MCMC_Model,model_name,MCMC_V1,自定义的待保存模型pickle文件的名称
+MCMC_Model,stan_name,MLR_V1.stan,pystan库StanModel所需的一个配置模型参数的.stan文件的名称
+MCMC_Model,data_size,36,指定训练数据的时间范围（行数）
+MCMC_Model,target_path,Target_Feature.csv,进一步需要结合原数据观察贡献度的目标特征
